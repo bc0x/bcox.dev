@@ -7,13 +7,17 @@ const Index = () => {
         <section className="title">
           <h1>Brandon Cox</h1>
           <nav>
-            <a target="_blank" href="https://github.com/bc0x">
+            <a
+              className="nav-item"
+              target="_blank"
+              href="https://github.com/bc0x"
+            >
               GITHUB
             </a>
             <a target="_blank" href="https://twitter.com/bcox_dev">
               TWITTER
             </a>
-            <a href="mailto:brandon.cox@pm.me">EMAIL</a>
+            <a href="mailto:info@bcox.dev">EMAIL</a>
           </nav>
         </section>
       </div>
@@ -23,6 +27,9 @@ const Index = () => {
         }
         nav {
           margin-top: 20px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
         }
         a {
           display: inline-block;

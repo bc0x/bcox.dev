@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "bcox.dev",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}

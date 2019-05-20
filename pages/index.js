@@ -7,14 +7,14 @@ const Index = () => {
         <section className="title">
           <h1>Brandon Cox</h1>
           <nav>
-            <a
-              className="nav-item"
-              target="_blank"
-              href="https://github.com/bc0x"
-            >
+            <a rel="noopener" target="_blank" href="https://github.com/bc0x">
               GITHUB
             </a>
-            <a target="_blank" href="https://twitter.com/bcox_dev">
+            <a
+              rel="noopener"
+              target="_blank"
+              href="https://twitter.com/bcox_dev"
+            >
               TWITTER
             </a>
             <a href="mailto:info@bcox.dev">EMAIL</a>
